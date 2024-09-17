@@ -31,3 +31,6 @@ button:hover {
     margin-bottom: 5%;
     margin-top: -150px;
 }
+a {
+    text-decoration: none;
+}
