@@ -1,0 +1,92 @@
+.explanation {
+    display: none;
+}
+/* General Styles */
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif; /* Playful font for a classroom feel */
+    background-color: #ffffff; /* Light gray background for a softer look */
+    color: #333; /* Dark gray text for readability */
+    padding: 5%;
+    box-sizing: border-box;
+}
+
+/* Heading 1 */
+h1 {
+    color: darkblue; /* Soft blue */
+    text-align: center;
+    font-size: 350%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+/* Heading 2 */
+h2 {
+    color: darkblue; /* Soft coral */
+    text-align: left;
+    font-size: 24px;
+    text-align: center;
+    margin: 5%;
+}
+
+h3 {
+    size: 18px;
+    color: black;
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+/* Paragraphs */
+p {
+    line-height: 1.6;
+    margin: 5%;
+    font-size: 18px;
+    text-align: center;
+    color:darkblue;
+}
+
+/* Buttons */
+button {
+    background-color: lightblue; /* Light green */
+    border: none;
+    color: black;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 10px;
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for a 3D effect */
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: darkblue; /* Darker green on hover */
+    color: white;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 10px; /* Optional: Adds spacing between grid items */
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+}
+
+img {
+    width: 90%;
+    height: 400px;
+    object-fit: cover;
+    margin-left: 5%;
+    margin-right:5%;
+    margin-top:2%;
+}
+
+span {
+    color:blue;
+}
