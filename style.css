@@ -3,7 +3,7 @@
 }
 /* General Styles */
 body {
-    font-family: 'Comic Sans MS', cursive, sans-serif; /* Playful font for a classroom feel */
+    font-family: 'Times New Roman', Times, serif;
     background-color: #ffffff; /* Light gray background for a softer look */
     color: #333; /* Dark gray text for readability */
     padding: 5%;
@@ -23,9 +23,11 @@ h1 {
 
 /* Heading 2 */
 h2 {
-    color: darkblue; /* Soft coral */
+    color: white; 
+    background-color: darkblue;
+    padding: 5%;/* Soft coral */
     text-align: left;
-    font-size: 24px;
+    font-size: 32px;
     text-align: center;
     margin: 5%;
 }
@@ -89,4 +91,12 @@ img {
 
 span {
     color:blue;
+}
+
+.message {
+    color: white;
+    background-color: darkblue;
+    padding: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
 }
