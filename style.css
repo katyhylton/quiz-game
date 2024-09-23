@@ -68,6 +68,7 @@ button {
 button:hover {
     background-color: darkblue; /* Darker green on hover */
     color: white;
+    scale: 1.05;
 }
 
 .grid-container {

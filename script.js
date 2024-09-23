@@ -23,12 +23,14 @@ function check(event) {
     
     if (name === "Correct") {
         // Answer is correct
-        button.style.background = "green";
+        button.style.background = "darkgreen";
+        button.style.color = "white";
         // Update score
         score++;
     } else {
         // Answer is wrong
-        button.style.background = "red";
+        button.style.background = "darkred";
+        button.style.color = "white";
         // Find the explanation element
         let explanation = question.querySelector(".explanation");
         // Show explanation
